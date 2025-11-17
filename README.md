@@ -57,3 +57,15 @@ The project utilizes the **CNN/DailyMail (Version 3.0.0)** dataset.
 ```bash
 git clone [https://github.com/your-username/text-summarization-t5.git](https://github.com/your-username/text-summarization-t5.git)
 cd text-summarization-t5
+
+2. Install Dependencies
+Bash
+
+pip install transformers datasets accelerate torch gradio rouge_score
+
+3. Run the Application
+To launch the Gradio web interface:
+
+Bash
+
+python app.py
